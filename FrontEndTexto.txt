@@ -1,0 +1,67 @@
+Windows: https://github.com/coreybutler/nvm-windows/releases
+Mac: https://nodejs.org/dist/v14.20.0/node-v14.20.0.pkg
+- nvm install 14.20.0
+- nvm use 14.20.0
+- npm install -g @angular/cli@12.2.17
+- npm install @ng-bootstrap/ng-bootstrap
+- npm install --legacy-peer-deps
+- ng serve
+
+----------------------
+https://elements.envato.com/es/web-templates/angular
+----------------------
+## Generar modulo de seguridad
+
+- ng generate module pages/seguridad --routing
+
+## Generar modulo de Estudiantes
+
+- ng generate module pages/estudiantes --routing
+- ng generate component pages/estudiantes/crear
+- ng generate component pages/estudiantes/listar
+
+## Creando el login en el modulo de seguridad
+
+- ng generate component pages/seguridad/login
+
+## Generando Modelos
+
+- ng generate class modelos/usuario --tlass modelos/usuario --type=model
+- ng generate service servicios/seguridad
+
+ # Generando Interceptor
+
+- ng generate interceptor interceptores/token
+
+# instalando libreria de Sweetaler
+
+- npm install sweetalert2 @sweetalert2/ngx-sweetalert2@^11.0.0
+Pagina:
+https://sweetalert2.github.io/
+
+# Modelo Estudiante
+
+- ng generate class modelos/estudiante --type=model
+
+# Creando el servicio del estudiante
+
+- ng generate service servicios/estudiante
+
+-----------https://fontawesome.com/icons
+
+#uso de iconos
+
+- ng add @fortawesome/angular-fontawesome@0.9
+
+# uso de heroku para correr los servicios
+
+- https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+- https://www.geeksforgeeks.org/deploy-python-flask-app-on-heroku/#:~:text=Deploying%20Flask%20App%20on%20Heroku&text=STEP%201%20%3A%20Create%20a%20virtual,and%20install%20Flask%20and%20Gunicorn%20.&text=STEP%202%20%3A%20Create%20a%20%E2%80%9CProcfile,and%20write%20the%20following%20code.&text=STEP%203%20%3A%20Create%20%E2%80%9Cruntime.,and%20write%20the%20following%20code.
+
+
+# iconos
+
+- https://akveo.github.io/eva-icons/#/
+
+
+
